@@ -79,7 +79,7 @@ main .info{
      border-color: #f6f7f8 ;
 }
 main .pass{
-     height: 430px;
+     /* height: 430px; */
      /* margin-bottom: 70px; */
      border: 1px solid red;
      border-top: 0px;
@@ -89,34 +89,83 @@ main .pass p{
      font-family: "Open Sans", Helvetica, Arial, sans-serif;
      /* font-size: 20px; */
      text-align: center;
-     line-height: 1.5;
+     /* line-height: 1.5; */
      font-weight: 600;
 }
 main .name{
-     height: 42px;
+     /* height: 42px; */
+     padding-bottom: 10px;
      font-size: 20px;
      color: #322828;
      font-weight: 500;
 }
+/* .typediv{
+} */
 main .type{
-     height: 42px;
+     padding-bottom: 10px;
+     /* height: 42px; */
      font-size: 20px;
      font-weight: 500;
      color: #322828;
+}
+main .passNoDiv{
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     padding-bottom:10px;
+}
+main .passNoText{
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+     /* font-size: 20px; */
+     text-align: center;
+     padding-bottom: 8px;
+     /* display: ; */
+     /* line-height: 1.5; */
+     font-weight: 600;
+     /* height: 42px; */
+     /* font-weight: 500; */
+     color: black;
+     /* font-size: 20px; */
+     /* animation-name: trans ;
+     animation-duration: 4s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite; */
+     /* animation-play-state: ; */
 }
 main .passNo{
-     height: 42px;
-     font-weight: 500;
-     color: black;
-     font-size: 20px;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+     /* font-size: 20px; */
+     text-align: center;
+     /* line-height: 1.5; */
+     font-weight: 600;
+     /* height: 42px; */
+     /* font-weight: 500; */
+     color: #458121;
+     /* color: green; */
+     /* font-size: 20px; */
+     animation-name: trans ;
+     animation-duration: 4s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     /* animation-play-state: ; */
+}
+@keyframes trans{
+     00% {opacity: 1;}
+     50% {opacity: 0.5;}
+     100% {opacity: 1;}
+}
+.datesdiv{
+     padding-bottom: 20px;
 }
 main .dates{
-     height: 42px;
+     /* height: 42px; */
      /* font-size: 20px; */
      font-weight: 500;
      color: #322828;
-     font-size: 16px;
-     color: green;
+     font-size: 20px;
+     color: #b01719;
 }
 main .pass img{
      height: 250px;
