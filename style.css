@@ -170,7 +170,7 @@ main .dates{
 main .pass img{
      height: 250px;
      width: 250px;
-     /*background-image: url(Dtc.jpeg);*/
+     background-image: none;
      /* border: 1px solid black; */
      margin: 10px auto 0 auto;
      text-align: center;
